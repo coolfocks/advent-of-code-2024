@@ -1,0 +1,19 @@
+{
+    "name": "stane/day06",
+    "description": "Šestý den adventního kalendáře sebepoškozování",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Stane\\Day06\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomáš Staněk",
+            "email": "stanekt@outlook.com"
+        }
+    ],
+    "require-dev": {
+        "illuminate/support": "^11.35"
+    }
+}
