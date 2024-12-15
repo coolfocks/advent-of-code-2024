@@ -9,6 +9,8 @@ enum Node: string {
 
     case ObstacleNode = 'obstacle';
 
+    case BlockerNode = 'blocker';
+
     case BoundaryNode = 'boundary';
 
 
@@ -19,9 +21,10 @@ enum Node: string {
         return match ($this) {
             static::EmptyNode => '.',
             static::ObstacleNode => '#',
-            static::BoundaryNode => 'X'
+            static::BlockerNode => 'O',
+            static::BoundaryNode => 'X',
         };
     }
-    
+
 
 }
